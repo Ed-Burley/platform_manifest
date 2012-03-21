@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest android:versionName="DroidBionICS">
+<manifest>
 
   <remote name="aosp"
        	fetch="https://android.googlesource.com/" />
        	
   <remote name="github"
        	fetch="git://github.com/" />
-
-  <remote name="DroidBionICS"
-          fetch="git://github.com/DroidBionICS/" />
+    	 
+  <remote name="gummy"
+       	fetch="git://github.com/teamgummy/" />
       	 
   <remote name="cm"
        	fetch="git://github.com/CyanogenMod/" />
@@ -28,8 +28,9 @@
   <remote name="mm"
         fetch="git://github.com/MotoMagic/" />
 		
-  <remote name="omapzoom"
-           fetch="git://git.omapzoom.org/" />
+  <remote  name="omapzoom"
+        fetch="git://git.omapzoom.org/"
+        review="review.omapzoom.org" />
 
   <default revision="refs/tags/android-4.0.3_r1"
        	remote="aosp"
@@ -54,7 +55,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="android_external_bash" remote="DroidBionICS" revision="ics" />
+  <project path="external/bash" name="android_external_bash" remote="gummy" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
