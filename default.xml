@@ -3,7 +3,10 @@
 
   <remote name="aosp"
        	fetch="https://android.googlesource.com/" />
-       	
+
+  <remote name="gummy"
+        fetch="git://github.com/teamgummy/" />
+       
   <remote name="github"
        	fetch="git://github.com/" />
 
